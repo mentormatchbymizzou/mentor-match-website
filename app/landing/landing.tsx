@@ -7,11 +7,12 @@ import { ScrollTrigger } from "gsap/all";
 import SplitText from "@/components/SplitText";
 import { FlipWords } from "@/components/ui/flip-words";
 import { TextGenerateEffect } from "@/components/ui/text-generation";
+import { HighlightText } from "@/components/ui/shadcn-io/highlight-text";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function Landing() {
-  const tag2Words = ["Mentor", "Opportunity", "Connection", "Project", "Role"];
+  const tag2Words = ["Student", "Mentor", "Opportunity", "Prodigy", "Project"];
   const tag1Words = "Bridging the gap between ambition and experience";
 
   const titleRef = useRef<HTMLDivElement | null>(null);
@@ -89,6 +90,12 @@ export default function Landing() {
         >
           {showTag2 && (
             <>
+              <HighlightText
+                text="Let Our AI"
+                inView={true}
+                transition={{ duration: 1.5, ease: "easeOut" }}
+                className="font-bold"
+              />{" "}
               Find Your Next{" "}
               <FlipWords
                 words={tag2Words}
