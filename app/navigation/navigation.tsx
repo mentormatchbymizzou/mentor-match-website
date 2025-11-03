@@ -24,7 +24,7 @@ export default function Navigation() {
         <NavbarLogo />
         <NavItems items={navItems} />
         <div className="flex items-center gap-4">
-          <NavbarButton variant="primary">Contact Sales</NavbarButton>
+          <NavbarButton variant="primary">Contact</NavbarButton>
         </div>
       </NavBody>
     </Navbar>
