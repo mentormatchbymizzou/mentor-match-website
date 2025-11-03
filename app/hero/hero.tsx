@@ -40,7 +40,7 @@ export default function Hero() {
       <StudentPoints></StudentPoints>
       <div className="wireframe relative">
         <Image
-          src="/iphone_wireframe.png"
+          src="./iphone_wireframe.png"
           alt="Picture of the author"
           width={350}
           height={350}

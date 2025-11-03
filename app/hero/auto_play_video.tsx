@@ -40,7 +40,7 @@ export default function AutoPlayVideo() {
       height={350}
       className="rounded-[3.2rem]"
       ref={videoRef}
-      src="/video_1.mp4"
+      src="./video_1.mp4"
       loop
       muted // IMPORTANT: Autoplay requires the video to be muted
       playsInline // IMPORTANT: Required for autoplay on iOS

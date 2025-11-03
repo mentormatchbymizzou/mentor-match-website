@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Features() {
   const features: { imagePath: string; feature: React.ReactNode }[] = [
     {
-      imagePath: "/feature_1_bg.png",
+      imagePath: "./feature_1_bg.png",
       feature: (
         <>
           Explore your matches!{" "}
@@ -23,7 +23,7 @@ export default function Features() {
       ),
     },
     {
-      imagePath: "/feature_2_bg.png",
+      imagePath: "./feature_2_bg.png",
       feature: (
         <>
           <HighlightText
@@ -36,7 +36,7 @@ export default function Features() {
       ),
     },
     {
-      imagePath: "/feature_3_bg.png",
+      imagePath: "./feature_3_bg.png",
       feature: (
         <>
           A{" "}
@@ -50,7 +50,7 @@ export default function Features() {
       ),
     },
     {
-      imagePath: "/feature_4_bg.png",
+      imagePath: "./feature_4_bg.png",
       feature: (
         <>
           Your{" "}
@@ -64,7 +64,7 @@ export default function Features() {
       ),
     },
     {
-      imagePath: "/feature_5_bg.png",
+      imagePath: "./feature_5_bg.png",
       feature: (
         <>
           <HighlightText
@@ -134,12 +134,13 @@ export default function Features() {
       });
     });
   });
+
   return (
     <div className="featureSection flex justify-center items-center h-dvh overflow-hidden">
       <div className="row">
         <div className="wireframe2 relative -left-4/5 opacity-0 scale-90">
           <Image
-            src="/iphone_wireframe.png"
+            src="./iphone_wireframe.png"
             alt="Picture of the author"
             width={350}
             height={350}
@@ -149,35 +150,35 @@ export default function Features() {
             <div className="feature_static_container w-[314px] h-[680px] rounded-[3.2rem] absolute overflow-hidden">
               <div className="feature_static_wrapper flex flex-row">
                 <Image
-                  src="/feature_1.png"
+                  src="./feature_1.png"
                   alt="feature 1"
                   width={314}
                   height={350}
                   className="img w-[314px] h-auto flex-shrink-0"
                 ></Image>
                 <Image
-                  src="/feature_2.png"
+                  src="./feature_2.png"
                   alt="feature 2"
                   width={314}
                   height={350}
                   className="img w-[314px] h-auto flex-shrink-0"
                 ></Image>
                 <Image
-                  src="/feature_3.png"
+                  src="./feature_3.png"
                   alt="feature 3"
                   width={314}
                   height={350}
                   className="img w-[314px] h-auto flex-shrink-0"
                 ></Image>
                 <Image
-                  src="/feature_4.png"
+                  src="./feature_4.png"
                   alt="feature 4"
                   width={314}
                   height={350}
                   className="img w-[314px] h-auto flex-shrink-0"
                 ></Image>
                 <Image
-                  src="/feature_5.png"
+                  src="./feature_5.png"
                   alt="feature 5"
                   width={314}
                   height={350}
