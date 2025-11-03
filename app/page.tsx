@@ -6,6 +6,7 @@ import Features from "./features/features";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { motion } from "motion/react";
 import Navigation from "./navigation/navigation";
+import Footer from "./footer/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <section id="features">
         <Features></Features>
       </section>
+      <Footer></Footer>
     </AuroraBackground>
   );
 }
